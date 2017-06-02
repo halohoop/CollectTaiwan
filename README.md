@@ -4,6 +4,7 @@
 
 * 不规则区域点击判断Region
 
+---
 
     public boolean isTouch(float x, float y) {
         RectF rectF = new RectF();
@@ -13,11 +14,13 @@
         return region.contains((int) x, (int) y);
     }
 
+---
+
 * SVG解析出path集合
     
     [使用工具类](https://github.com/halohoop/Halohoop_Code_Schools_New/blob/android_templete_solutions/Android/android_templete_solutions/Class.md#007path%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7%E7%B1%BBpathparserjava)
 
-
+---
     /**
      * @param inputStream svg xml 的 文件流
      * @param container   结果的容器
@@ -55,6 +58,7 @@
         }
     }
 
+---
 
 
 ## License
