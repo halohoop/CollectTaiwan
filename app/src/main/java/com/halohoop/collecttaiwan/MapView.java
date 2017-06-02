@@ -51,7 +51,7 @@ public class MapView extends View {
     }
 
     private InputStream getSvgInputStream(Context context) {
-        return context.getResources().openRawResource(R.raw.taiwan);
+        return context.getResources().openRawResource(R.raw.hongkong_high);
     }
 
     @Override

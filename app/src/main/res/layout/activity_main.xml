@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#338e8e8e"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#338e8e8e"
+    android:orientation="vertical"
     tools:context="com.halohoop.collecttaiwan.MainActivity">
 
     <com.halohoop.collecttaiwan.MapView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-</FrameLayout>
+</LinearLayout>
