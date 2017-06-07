@@ -1,6 +1,6 @@
 # SVG自定义控件
 
-![demo](./taiwan.gif)
+![demo](./hongkong.gif)
 
 * 不规则区域点击判断Region
 
